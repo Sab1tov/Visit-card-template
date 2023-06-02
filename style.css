@@ -1,0 +1,105 @@
+*{
+    font-family: Bahnschrift;
+}
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(252,176,69,1) 56%, rgba(255,235,26,1) 100%);
+}
+.info{
+    margin-top: 10%;
+    display: flex;
+    width: 60em;
+    height: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+.box{
+    margin-left: -10%;
+    margin-top: 5%;
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+    background: rgb(252,140,7);
+    background: linear-gradient(90deg, rgba(252,140,7,1) 38%, rgba(252,9,9,1) 100%);
+    box-shadow: 5px 5px 25px;
+}
+.description{
+    margin: auto;
+    width: 50%;
+}z
+
+h3{
+    color: #8a8989;
+    font-size: 20px;
+}
+
+p{
+    color: #8a8989;
+    font-size: 20px;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background: rgb(252,140,7);
+    background: linear-gradient(90deg, rgba(252,140,7,1) 38%, rgba(252,9,9,1) 100%);
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 25px;
+    user-focus-pointer: on;
+}
+
+.dots{
+    align-content: end;
+    margin-top: 12%;
+}
+
+.dot{
+    width:1.5rem;
+    height: 1.5rem;
+    background-color: #d0d0d0;
+    border-radius: 50px;
+    margin: 20px;
+}
+.line{
+    width: 1.5rem;
+    height: 4.5rem;
+    background-color: red;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+@media only screen and (max-width: 800px){
+    .description{
+        margin-top: 10%;
+    }
+    .info{
+        margin-top: 20%;
+        display: grid;
+        width: 30rem;
+        height: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box{
+        margin-top: -20%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    h3{
+        color: #8a8989;
+        font-size: 20px;
+    }
+
+    .dots{
+        transform: rotate(90deg);
+        margin-top: 35%;
+    }
+
+
+}
